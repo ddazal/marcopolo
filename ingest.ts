@@ -1,5 +1,5 @@
 import type { Collection, Metadata } from "chromadb";
-import { describeTool, type ToolDefinition } from "./tools/definitions";
+import { describeTool, type ToolDefinition } from "./tools/schema";
 import { getCollection } from "./collections";
 
 export async function indexTools(tools: ToolDefinition[]): Promise<Collection> {
